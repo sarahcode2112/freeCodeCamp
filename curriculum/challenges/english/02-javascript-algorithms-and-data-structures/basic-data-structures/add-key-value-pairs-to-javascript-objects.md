@@ -85,9 +85,10 @@ Do not add properties directly to the `foods` object.
 
 ```js
 assert(
-  code.search(/bananas:/) === -1 &&
-    code.search(/grapes:/) === -1 &&
-    code.search(/strawberries:/) === -1
+  Object.keys(foods).length === 4 &&
+  foods.bananas === 13 &&
+  foods.grapes === 35 &&
+  foods.strawberries === 27
 );
 ```
 
