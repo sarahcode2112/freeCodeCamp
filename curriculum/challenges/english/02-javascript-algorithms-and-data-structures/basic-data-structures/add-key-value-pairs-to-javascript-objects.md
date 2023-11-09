@@ -81,8 +81,7 @@ The `foods` object should have a key `strawberries` with a value of `27`.
 assert(foods.strawberries === 27);
 ```
 
-<!-- TODO: change this message and test -->
-The key-value pairs should be set using dot or bracket notation.
+Do not add properties directly to the `foods` object.
 
 ```js
 assert(
